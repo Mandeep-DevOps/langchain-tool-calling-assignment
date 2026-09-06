@@ -1,0 +1,17 @@
+# ============================================================
+# Files and folders Git should NOT track
+# ============================================================
+
+# Never commit environment variables or API keys.
+.env
+
+# Do not commit the local Python virtual environment.
+# Other developers should create their own .venv.
+.venv/
+
+# Python creates these cache files automatically.
+__pycache__/
+*.pyc
+
+# IntelliJ project-specific local settings.
+.idea/
